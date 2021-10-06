@@ -4,7 +4,7 @@ on:
   repository_dispatch:
   
   schedule:
-    - cron: 0 0 10,22 * * *
+    - cron: 5 15 * * *
     
   watch:
     types: started
